@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/hostel", "destination": "/", "permanent": true },
+    { "source": "/hostel/", "destination": "/", "permanent": true },
+    { "source": "/hostel/index.html", "destination": "/", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true }
+  ]
+}
